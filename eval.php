@@ -16,7 +16,7 @@ $ydata1 = array(67,70,74);
 $ydata2 = array(64,61,53);
  
 // Create the graph. These two calls are always required
-$graph = new Graph(360,260);
+$graph = new Graph(260,200);
 $graph->img->SetAntiAliasing(true);
 $graph->img->SetMargin(40,40,40,70);
 
@@ -73,7 +73,6 @@ $graph->legend->SetColumns(1);
 
 $graph->SetBox(false, '#cccccc', 2);
 
-aph
 $graph->Stroke();
 
 	</textarea>

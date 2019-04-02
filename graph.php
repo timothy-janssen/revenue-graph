@@ -8,7 +8,7 @@ $ydata1 = $_GET['y1'];
 $ydata2 = $_GET['y2'];
  
 // Create the graph. These two calls are always required
-$graph = new Graph(360,260);
+$graph = new Graph(260,200);
 $graph->img->SetAntiAliasing(true);
 $graph->img->SetMargin(40,40,40,70);
 
