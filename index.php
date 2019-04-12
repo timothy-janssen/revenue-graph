@@ -8,8 +8,13 @@
 			"content": "The current projection for <?php echo  $_GET['c']; ?> is for revenue to <?php echo  $_GET['d']; ?> in the next quarter:"
 		},
 		{
-			"type": "picture",
-			"content": "https://<?php echo $_SERVER['SERVER_NAME']; ?>/graph.php?<?php echo http_build_query($_GET); ?>"
+			"type": "card",			
+			"content": {
+				"title": "Revenue Analytics (€M)",
+				"subtitle": "<?php echo $_GET['c']; ?>",
+				"imageUrl": "https://<?php echo $_SERVER['SERVER_NAME']; ?>/graph.php?<?php echo http_build_query($_GET); ?>",
+				"buttons": []
+			}
 		}
 	]
 }

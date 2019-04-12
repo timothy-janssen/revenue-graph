@@ -80,7 +80,7 @@ $graph->Stroke();
 </form>
 
 Output: 
-<iframe name="iframe" width="400" height="400"></iframe>
+<iframe name="iframe" width="1000" height="800" style="-webkit-transform: scale(0.5); -webkit-transform-origin: 0 0; resize: both; overflow: none;"></iframe>
 
 <?php
 	}
