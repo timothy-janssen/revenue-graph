@@ -10,7 +10,7 @@
 		{
 			"type": "card",			
 			"content": {
-				"title": "Revenue Analytics (€M)",
+				"title": "Revenue Analytics ($M)",
 				"subtitle": "<?php echo $_GET['c']; ?>",
 				"imageUrl": "https://<?php echo $_SERVER['SERVER_NAME']; ?>/graph.php?<?php echo http_build_query($_GET); ?>",
 				"buttons": []
