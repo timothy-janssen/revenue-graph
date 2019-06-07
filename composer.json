@@ -1,6 +1,5 @@
 {
     "require": {
-        "ext-gd": "*",
-        "gd": "*"
+        "ext-gd": "*"
     }
 } 
